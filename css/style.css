@@ -103,12 +103,11 @@ h3 {
 
 .destaques h3 { 
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 35px;
     text-align: center;
     font-weight: 500;
-    font-size: 1.9em;
-    
+    font-size: 1.8em;   
 }
 
 .destaques .card-products { 
@@ -170,7 +169,7 @@ h3 {
   bottom: 75px;
   font-family: 'Roboto';
   font-style: normal;
-   font-weight: 400;
+  font-weight: 400;
   font-size: 15px;
   line-height: 18px;
   color: #F3F3F3;
