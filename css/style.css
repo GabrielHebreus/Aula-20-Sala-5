@@ -155,7 +155,7 @@ h3 {
 
 .Estrela{
     width: 100vw; 
-    height: 1200px;
+    height: 100vh;
     display: flex; 
     flex-direction: column;
     align-items: center;
