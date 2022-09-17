@@ -31,6 +31,66 @@ header {
     align-self: center;
 }
 
+/*Começa aqui - João */
+
+.banner {
+
+    width: 414px;
+    height: 512px;
+    left: 0px;
+    top: 90px;
+    background-image:url(/Aula-20-Sala-5/images/banner.png);
+    display: flex;
+
+}
+
+.texto {
+    position: absolute;
+    width: 336px;
+    height: 133px;
+    left: 39px;
+    top: 224px;
+
+}
+
+.texto h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #F3F3F3;
+
+}
+
+h1 span {
+    color: #D01418;
+}
+
+
+
+.botao {
+    width: 220px;
+    height: 61px;
+    left: 97px;
+    top: 317px;
+    background: #D01418;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #F3F3F3;
+    padding: 16px 61px 16px 61px;
+
+}
+
+/*Termina aqui João */
+
 .destaques { 
     width: 100vw; 
     height: 1200px;
