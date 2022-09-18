@@ -239,14 +239,19 @@ section {
     font-size: 0.8rem;
     padding-top: 0.23rem;
 }
+
+
 @media(min-width: 1024px){
     nav ul li a{
         color: #fff;
         text-decoration: none;
         transition: 0.3s;
+        cursor: pointer;
+        
     }
     nav ul li a:hover{
         opacity: 0.7;
+        color:#D01418;
 
     }
     nav{
@@ -283,6 +288,11 @@ section {
         height: 20px;
         top: 32px;
         right: 22px;
+        cursor: pointer;
+    }
+    .carrinho:hover{
+        opacity: 0.7;
+        color:#F3F3F3 ;
     }
 
     .texto h1 {
@@ -316,6 +326,7 @@ section {
         padding: 12px 0 12px 0;
     }
 }
+
 @media(max-width: 460px){
     nav{
         display: none;
