@@ -239,3 +239,89 @@ section {
     font-size: 0.8rem;
     padding-top: 0.23rem;
 }
+@media(min-width: 1024px){
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    nav ul li a:hover{
+        opacity: 0.7;
+
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+    .nav-list{
+        list-style: none;
+        display: flex;
+        position: relative;
+        left: 750px;
+        
+    }
+    .nav-list li{
+        letter-spacing: 3px;
+        margin-left: 32px;
+    }
+    .menu {
+        display: none;
+    }
+    .logo{
+        display: flex;
+        position: absolute;
+        right: 1100px;
+        
+        
+    }
+    .carrinho{
+        display: flex;
+        position: relative;
+        height: 20px;
+        top: 32px;
+        right: 22px;
+    }
+
+    .texto h1 {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 3rem;
+        text-align: center;
+        color: #F3F3F3;
+        position: absolute;
+        width: 1000px;
+        left: 128px;
+        top: 29px;
+    
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+        left: 600px;
+    }
+
+
+    .firstfooter{
+        width: 100vw    ;
+    }
+    .lastfooter{
+        width: 100vw;
+    }
+    .destaques h3{
+        width: 100vw;
+        height: 12vh;
+        padding: 12px 0 12px 0;
+    }
+}
+@media(max-width: 460px){
+    nav{
+        display: none;
+
+    }
+    .carrinho{
+        display: none;
+    }
+}
